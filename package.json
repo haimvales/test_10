@@ -1,0 +1,30 @@
+{
+  "name": "test_10",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000e\u0000s\u0000t\u0000-\u00001\u00000\u0000\r\u0000 \u0000\"# test_10\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haimvales/test_10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/haimvales/test_10/issues"
+  },
+  "homepage": "https://github.com/haimvales/test_10#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "nodemon": "^3.1.11",
+    "dotenv": "^17.2.3",
+    "@supabase/supabase-js": "^2.89.0"
+  }
+}
+

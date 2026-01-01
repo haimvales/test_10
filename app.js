@@ -1,13 +1,13 @@
 import express from "express";
-// import reportsRoutes from "./router/reportsR.js";
+import routes from "./router/index.js";
 
 const app = express();
-const port = 3011;
+const port = 3015;
 app.use(express.json());
 
 // posts reports
-app.use("/reports", reportsRoutes);
+app.use("/api", routes);
 
 app.listen(port, () => {
-    console.log(`server runing on http://localhost:${port}`);
+    console.log(`server runing on http://localhost:${port}/api`);
 })

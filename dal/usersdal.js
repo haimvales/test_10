@@ -15,11 +15,5 @@ export async function getFirstByValue(nameTable, byValue, value) {
 export async function updateCounter( username, newValue) {
     const newObj = { $set: { encryptedMessagesCount: newValue } }
     const rows = await db.collection('users').updateOne({ username: username }, newObj);
-    // console.log(rows);
     return rows
 }
-// export async function  createUser  (username, password)  {
-//         const { data, error } = await db.collection(nameTable).insertOne(objInsert);
-//         if (error) throw error;
-//         return data;
-//     }
